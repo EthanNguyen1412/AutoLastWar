@@ -177,7 +177,7 @@ flowchart LR
 | MAU cao nhất (đỉnh trong giai đoạn trên) | **~48** | Ước tính theo lượt đăng nhập thiết bị hợp lệ / tháng |
 | Phiên bản ổn định production | **2.1.x** | Dòng build đang phát hành cho người dùng |
 | Độ trễ một vòng nhận diện (ROI + grayscale, PC tầm trung) | **~15–30 ms** | Một lần `matchTemplate` trên ROI đã cắt, không quét full frame |
-| Session chạy liên tục dài nhất (ghi nhận) | **~20 giờ** | Bot + worker; giới hạn chủ yếu do bảo trì máy / cập nhật game |
+| Session chạy liên tục dài nhất (ghi nhận) | **~74 giờ** | Bot + worker; giới hạn chủ yếu do bảo trì máy / cập nhật game |
 | Tỉ lệ crash ước lượng | **< 1% / ~1000 giờ** | Theo log ứng dụng và feedback; phần lớn liên quan môi trường (driver, overlay) |
 
 **Hiệu suất & thiết kế vận hành:**
